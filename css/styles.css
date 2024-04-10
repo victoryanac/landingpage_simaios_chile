@@ -13312,3 +13312,24 @@ a:hover{
 .carousel-control-next-icon {
   background-color: #000;
 }
+
+/* header */
+.masthead-subheading {
+  color:#bcbebf; /* Un blanco suave */
+  -webkit-text-stroke: 0.5px #6c757d; /* Un borde gris muy sutil */
+  text-shadow: 1px 1px 2px #f9fafb; /* Una sombra blanca suave para crear un efecto difuminado */
+}
+
+.masthead-heading {
+  color: #e2e6ea; /* Un gris claro para el título, que suaviza el contraste */
+  -webkit-text-stroke: 0.5px #6c757d; /* Borde sutil, igual que en el subencabezado */
+  text-shadow: 1px 1px 2px #fff; /* Manteniendo la sombra suave y difusa */
+}
+
+.btn-primary {
+  border: none;
+  box-shadow: 0 2px 4px rgba(108, 117, 125, 0.3); /* Una sombra más ligera y menos pronunciada */
+  color: #f8f9fa; /* Texto del botón en blanco suave */
+  text-shadow: none; /* Omitiendo la sombra del texto para un efecto más limpio */
+  -webkit-text-stroke: 0px; /* Sin borde en el texto del botón para mantenerlo simple y limpio */
+}
