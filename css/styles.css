@@ -148,6 +148,7 @@
       h2,
       .h2 {
         font-size: calc(1.325rem + 0.9vw);
+        color:#016571
       }
 
       @media (min-width: 1200px) {
@@ -13214,8 +13215,8 @@
   padding-bottom: 1em;
 }
 #seccion-calltoaction-1 button{
-width:20em;
-height: 3em;
+  width: 80%;
+  height: 3em;
 } 
 
 
@@ -13315,15 +13316,15 @@ a:hover{
 
 /* header */
 .masthead-subheading {
-  color:#bcbebf; /* Un blanco suave */
-  -webkit-text-stroke: 0.5px #6c757d; /* Un borde gris muy sutil */
-  text-shadow: 1px 1px 2px #f9fafb; /* Una sombra blanca suave para crear un efecto difuminado */
+  color: #ffffff; /* Cambiar el color a blanco */
+  -webkit-text-stroke: 0.5px #6c757d; /* Mantener el borde gris sutil */
+  text-shadow: 1px 1px 2px #f9fafb; /* Mantener la sombra blanca suave */
 }
 
 .masthead-heading {
-  color: #e2e6ea; /* Un gris claro para el título, que suaviza el contraste */
-  -webkit-text-stroke: 0.5px #6c757d; /* Borde sutil, igual que en el subencabezado */
-  text-shadow: 1px 1px 2px #fff; /* Manteniendo la sombra suave y difusa */
+  color: #f2f5f8; /* Cambiar el color a un gris más claro */
+  -webkit-text-stroke: 0.5px #6c757d; /* Mantener el borde gris sutil */
+  text-shadow: 1px 1px 2px #fff; /* Mantener la sombra blanca suave */
 }
 
 .btn-primary {
@@ -13332,4 +13333,12 @@ a:hover{
   color: #f8f9fa; /* Texto del botón en blanco suave */
   text-shadow: none; /* Omitiendo la sombra del texto para un efecto más limpio */
   -webkit-text-stroke: 0px; /* Sin borde en el texto del botón para mantenerlo simple y limpio */
+}
+
+#img-formulario{
+  text-align: center;
+}
+
+.page-section{
+  padding-bottom: 0rem;
 }

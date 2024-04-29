@@ -52,3 +52,15 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+// Add animation to buttons
+const buttons = document.querySelectorAll('.btn');
+buttons.forEach(button => {
+    button.addEventListener('mouseover', () => {
+        button.classList.add('animated', 'bounce');
+    });
+    button.addEventListener('animationend', () => {
+        button.classList.remove('animated', 'bounce');
+    });
+});
